@@ -29,7 +29,7 @@ jobs:
       - name: Upload artifact from Lab3Flex1
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './Lab3Flex1'
+          path: './Lab3Flex'
 
       - name: Upload artifact from Lab3Float
         uses: actions/upload-pages-artifact@v3
