@@ -26,17 +26,18 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload artifact from Lab3Flex1
+      - name: Upload artifact from Lab3Flex
         uses: actions/upload-pages-artifact@v3
         with:
           path: './Lab3Flex'
+          artifact_name: "Lab3Flex1-artifact"
 
       - name: Upload artifact from Lab3Float
         uses: actions/upload-pages-artifact@v3
         with:
           path: './Lab3Float'
+          artifact_name: "Lab3Float-artifact"
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
